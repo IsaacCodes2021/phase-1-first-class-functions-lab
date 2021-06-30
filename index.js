@@ -33,6 +33,7 @@ function fareTripler(triple) {
 }
 
 function selectDifferentDrivers(drivers, x) {
+//a shorter way of doing this would look like => return x(drivers);
     if(x === returnFirstTwoDrivers) {
         return returnFirstTwoDrivers(drivers);
     }
